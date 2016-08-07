@@ -19,3 +19,7 @@ run_test Or
 run_test Xor
 run_test Mux
 run_test DMux
+run_test Not16
+run_test And16
+run_test Or16
+run_test Mux16
