@@ -23,3 +23,8 @@ run_test Not16
 run_test And16
 run_test Or16
 run_test Mux16
+run_test Or8Way
+run_test Mux4Way16
+run_test Mux8Way16
+run_test DMux4Way
+run_test DMux8Way
