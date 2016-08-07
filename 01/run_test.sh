@@ -10,7 +10,7 @@ if [ $? -ne 0 ];then
     exit
 fi
 
-cp *.hdl $root/projects/01/
+cp $root/01/*.hdl $root/projects/01/
 cd $root/
 
 run_test Not
