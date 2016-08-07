@@ -14,3 +14,4 @@ cp $root/02/*.hdl $root/projects/02/
 cd $root/
 
 run_test HalfAdder
+run_test FullAdder
