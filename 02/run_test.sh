@@ -15,3 +15,4 @@ cd $root/
 
 run_test HalfAdder
 run_test FullAdder
+run_test Add16
