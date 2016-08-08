@@ -16,3 +16,6 @@ cd $root/
 run_test HalfAdder
 run_test FullAdder
 run_test Add16
+run_test Inc16
+run_test ALU
+run_test ALU-nostat
