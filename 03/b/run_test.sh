@@ -14,3 +14,5 @@ cp $root/03/b/*.hdl $root/projects/03/b/
 cd $root/
 
 run_test RAM512
+run_test RAM4K
+run_test RAM16K
