@@ -17,3 +17,4 @@ run_test Bit
 run_test Register
 run_test RAM8
 run_test RAM64
+run_test PC
