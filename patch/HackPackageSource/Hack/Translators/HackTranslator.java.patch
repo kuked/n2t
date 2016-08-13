@@ -1,0 +1,13 @@
+diff --git HackPackageSource/Hack/Translators/HackTranslator.java HackPackageSource/Hack/Translators/HackTranslator.java
+index cc7d7da..3b23f58 100644
+--- HackPackageSource/Hack/Translators/HackTranslator.java
++++ HackPackageSource/Hack/Translators/HackTranslator.java
+@@ -305,7 +305,7 @@ public abstract class HackTranslator implements HackTranslatorEventListener, Act
+                 gui.getSource().setContents(linesArray);
+             }
+ 
+-            destFileName = sourceFileName.substring(0,sourceFileName.indexOf('.')) +
++            destFileName = sourceFileName.substring(0,sourceFileName.lastIndexOf('.')) +
+                              "." + getDestinationExtension();
+ 
+             initSource();
